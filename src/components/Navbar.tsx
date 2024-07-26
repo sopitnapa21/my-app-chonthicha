@@ -12,7 +12,7 @@ export default function Navbar() {
                 className="text-5xl text-blue-600 hover:text-stone-600"
               ></ion-icon>
             </div> */}
-            <ul className="hidden md:flex items-center text-[18px] font-semibold pr-10">
+            <ul className="hidden md:flex items-center text-[15px] font-semibold pr-10">
               <li className="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
                 <a href="#">หลักสูตรรัฐประศาสนศาสตร์</a>
               </li>
@@ -26,7 +26,10 @@ export default function Navbar() {
                 <a href="/ai">AI ขับเคลื่อนนโยบายสาธารณะ</a>
               </li>
               <li className="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
-                <a href="#">ChatGPT</a>
+                <a href="/evaluation">การประเมินนโยบายสาธารณะ</a>
+              </li>
+              <li className="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
+                <a href="/chatgpt">ChatGPT</a>
               </li>
               <li className="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
                 <a href="#">ทีมงาน</a>
@@ -34,7 +37,7 @@ export default function Navbar() {
               <li className="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
                 <a href="#">ติดต่อ</a>
               </li>
-              
+
               <li className="text-blue-600 hover:text-white hover:bg-blue-600 mx-4 my-1 border-2 border-blue-600 px-2 rounded-2xl ">
                 <a href="#">LogIn</a>
               </li>
